@@ -1,8 +1,10 @@
 @import url('../fonts/MaterialIcons/material-icons.css');
 @import url('../fonts/Roboto/roboto.css');
 
-.banner{ background: url(/img/bannerbg.jpg) no-repeat center; } 
-.banner{ background: url(/img/bannerbg.jpg) no-repeat center; } 
+section:nth-of-type(1) .background { background-image: url(../assets/img/background/gray.jpg);}
+section:nth-of-type(2) .background { background-image: url(../assets/img/background/blue.jpg);}
+
 @supports (-webkit-appearance:none){ 
-    .banner { background-image: url(/img/bannerbg.webp); } 
+    section:nth-of-type(1) .background { background-image: url(../assets/img/background/gray.webp);}
+    section:nth-of-type(2) .background { background-image: url(../assets/img/background/blue.webp);}
 } 
